@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alert-container {
+    background-color: #f2f2f2;
+    padding: 8px 42vw;
+}
+
+.alert-container p span {
+    color: #ff0000;
+}
+
+.navbar{
+    display: flex;
+    padding: 0 15px;
+}
+.navbar-list-div{
+    margin-left: 200px;
+}
+.navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar-list-optn{
+    padding: 5px;
+}
+.navbar-list-optn a{
+    cursor: pointer;
+}
+.navbar-form{
+    margin-left: 480px;
+}
+#navbar-search{
+    width: 250px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+#navbar-search-btn{
+    width: 60px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px 10px;
+    min-height: 80px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    /* need to display it using hover effet in js */
+}
+/* .dropdown-list{
+    gap: 5px;
+} */
+
+.dropdown-list-item {
+    list-style: none;
+    padding: 5px 5px;
+}
+
+#cart{
+    margin-left: 50px;
+}
